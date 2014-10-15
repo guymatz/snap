@@ -1,10 +1,11 @@
 snap
 ====
 
-simple linux (Mint Mate 17) snapping + keybings
+# simple linux (Mint Mate 17) snapping + keybings
 
-dconf-cli is requiresd to export/import keybindings
+#### dconf-cli is required to export/import keybindings:
 dconf dump /org/mate/desktop/keybindings/ > /tmp/foo
 
-Haven't tried importing yet!  Maybe something like this:
+
+#### Haven't tried importing yet!  Maybe something like this:
 cat /tmp/foo | dconf load /org/mate/desktop/keybindings/ 
